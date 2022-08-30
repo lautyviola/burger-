@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0ch;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(245, 105, 12);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.logo{
+    margin-left: 30px;
+}
+.logo a{
+    text-decoration: none;
+    color: azure;
+    text-transform: uppercase;
+}
+
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: rgba(231, 98, 9, 0.979);
+}
+
+.content_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.content_header{
+   background-image: url(https://parrillasburger.com.ar/wp-content/uploads/2021/10/Banner-web-cubicas-1500x630.jpg) ;
+   background-size: cover
+}
+
+.tittle{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.parraf{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.content_header{
+    height: 81vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.divicion{
+    padding: 50px;
+    background: rgb(255, 123, 0);
+    height: 200vh;
+    flex-wrap: wrap;
+
+}
+
+.parrillas{
+    text-transform: uppercase;
+    justify-content: center;
+
+
+}
+
+.imgparrillas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img1{
+    margin: 40px;
+    padding: 40px;
+}
+
+.img2{
+    margin: 40px;
+    padding: 40px;
+}
+
+.img3{
+    margin: 40px;
+    padding: 40px;
+}
+
+.calefaccion{
+    text-transform: uppercase;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.img4{
+    padding: 40px;
+    margin: 40px;
+}
+
+.img5{
+    padding: 40px;
+    margin: 40px;
+}
+.img6{
+    padding: 40px;
+    margin: 40px;
+}
+
+.salamandras{
+    text-transform: uppercase;
+    justify-content: center;
+    color: black;
+    flex-wrap: wrap;
+}
+
+
+
+.img7{
+    padding: 40px;
+    margin: 40px;
+}
+
+.img8{
+    padding: 40px;
+    margin: 40px;
+}
+
+.img9{
+    padding: 40px;
+margin: 40px;
+}
+
+
+.contacto{
+    text-transform: uppercase;
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+    padding: 50px;
+}
+
+section{
+    height: 60vh;
+    background-image: url(https://us.123rf.com/450wm/panychev/panychev1608/panychev160800365/61001213-oscuro-negro-fondo-del-suelo-de-madera-piso-de-cerca-ilustraci%C3%B3n.jpg);
+    background-size: cover;
+}
+
+.contactanos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ 
+}
+
+
+h4{
+    color: azure;
+
+}
+
+.final{
+    padding: 50px;
+
+}
+
+.encontranos{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mapa{
+    padding: 50px;
+    justify-content: center;
+}
+
+
+
+
+
+

@@ -1,0 +1,252 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  border: 0ch;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+body {
+  text-align: center;
+  font-family: sans-serif; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background-color: #f5690c;
+  position: fixed;
+  width: 100%;
+  z-index: 100; }
+
+.logo {
+  margin-left: 30px; }
+
+.logo a {
+  text-decoration: none;
+  color: azure;
+  text-transform: uppercase; }
+
+.navbar {
+  display: flex;
+  margin-right: 10px; }
+
+.navbar a {
+  display: block;
+  padding: 23px 20px;
+  color: aliceblue;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px; }
+
+.navbar a:hover {
+  background: rgba(231, 98, 9, 0.979); }
+
+.content_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; }
+
+.content_header {
+  background-image: url(https://scontent.faep8-1.fna.fbcdn.net/v/t39.30808-6/261508260_4451045294943910_905028214029216011_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=e3f864&_nc_ohc=UO5VV1DUhP8AX8ypSHC&_nc_ht=scontent.faep8-1.fna&oh=00_AT_Kx7RoPnE625OUCjD8xqbV8U2tAwY_U9TX9YbCU2QDlQ&oe=62F9D1AF);
+  background-size: cover; }
+
+.tittle {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+p {
+  margin-bottom: 40px;
+  font-size: 18px; }
+
+.parraf {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  text-decoration: none;
+  margin-bottom: 40px; }
+
+.content_header {
+  height: 81vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.divicion {
+  padding: 50px;
+  background: #ff7b00;
+  height: 200vh;
+  flex-wrap: wrap; }
+
+.parrillas {
+  text-transform: uppercase;
+  justify-content: center; }
+
+.imgparrillas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.img1 {
+  margin: 40px;
+  padding: 40px; }
+
+.img2 {
+  margin: 40px;
+  padding: 40px; }
+
+.img3 {
+  margin: 40px;
+  padding: 40px; }
+
+.calefaccion, .encontranos-1, .encontranos-2, .encontranos-3, .encontranos-4, .encontranos-5 {
+  text-transform: uppercase;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.img4 {
+  padding: 40px;
+  margin: 40px; }
+
+.img5 {
+  padding: 40px;
+  margin: 40px; }
+
+.img6 {
+  padding: 40px;
+  margin: 40px; }
+
+.salamandras {
+  text-transform: uppercase;
+  justify-content: center;
+  color: black;
+  flex-wrap: wrap; }
+
+.img7 {
+  padding: 40px;
+  margin: 40px; }
+
+.img8 {
+  padding: 40px;
+  margin: 40px; }
+
+.img9 {
+  padding: 40px;
+  margin: 40px; }
+
+.contacto {
+  text-transform: uppercase;
+  justify-content: center;
+  display: flex;
+  margin: 50px;
+  padding: 50px; }
+
+section {
+  height: 60vh;
+  background-image: url(https://us.123rf.com/450wm/panychev/panychev1608/panychev160800365/61001213-oscuro-negro-fondo-del-suelo-de-madera-piso-de-cerca-ilustraci%C3%B3n.jpg);
+  background-size: cover; }
+
+.contactanos {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
+h4 {
+  color: azure; }
+
+.final {
+  padding: 50px; }
+
+.encontranos {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase; }
+
+.mapa {
+  padding: 50px;
+  justify-content: center;
+  width: clamp(200px, 200px + 1vw, 400px) ;
+  font-size: clamp(2rem, 2rem + 3vw, 10rem); }
+
+/* variables */
+/* mapas */
+.color-primary {
+  color: red;
+  background: cyan;
+  text-shadow: 2px 2px 4px #990000; }
+
+.color-secondary {
+  color: blue;
+  background: yellow;
+  text-shadow: 2px 2px 4px #000099; }
+
+.color-third {
+  color: orange;
+  background: #005aff;
+  text-shadow: 2px 2px 4px #996300; }
+
+.color-primary {
+  color: red;
+  background: cyan;
+  text-shadow: 2px 2px 4px #990000; }
+
+.color-secondary {
+  color: blue;
+  background: yellow;
+  text-shadow: 2px 2px 4px #000099; }
+
+.color-third {
+  color: orange;
+  background: #005aff;
+  text-shadow: 2px 2px 4px #996300; }
+
+.font-1 {
+  font-size: 2rem; }
+
+.font-2 {
+  font-size: 3rem; }
+
+.font-3 {
+  font-size: 4rem; }
+
+.font-4 {
+  font-size: 5rem; }
+
+.font-5 {
+  font-size: 6rem; }
+
+.font-6 {
+  font-size: 7rem; }
+
+.font-7 {
+  font-size: 8rem; }
+
+.font-8 {
+  font-size: 9rem; }
+
+.font-9 {
+  font-size: 10rem; }
+
+.font-10 {
+  font-size: 11rem; }
+
+.encontranos-1 {
+  font-size: 1rem; }
+
+.encontranos-2 {
+  font-size: 2rem; }
+
+.encontranos-3 {
+  font-size: 3rem; }
+
+.encontranos-4 {
+  font-size: 4rem; }
+
+.encontranos-5 {
+  font-size: 5rem; }
