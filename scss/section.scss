@@ -1,0 +1,25 @@
+h4{
+    color: azure;
+
+}
+
+.final{
+    padding: 50px;
+
+}
+
+.encontranos{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mapa{
+    padding: 50px;
+    justify-content: center;
+    width: unquote("clamp(200px, 200px + 1vw, 400px) ");
+    font-size: unquote("clamp(2rem, 2rem + 3vw, 10rem)");
+}
+
